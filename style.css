@@ -5,13 +5,13 @@
 div.top-bg{
     width: 100%;
     height: 373px;
-    background-color: lightslategray;
+    background-color: lightgrey;
 }
 div.bottom-bg{
     margin-top: 533px;
     width: 100%;
     height: 51px;
-    background-color: lightslategray;
+    background-color: lightgrey;
 
 }
 div.wrapper{
@@ -62,7 +62,7 @@ div.box4{
     justify-content: flex-start;
     padding-left: 70px;
     width: 70%;
-    background-color: lightsteelblue;
+    background-color:#9D9C9C;
 }
 div.box3 p:first-child{
     font-size: 20pt;
