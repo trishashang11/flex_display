@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+div.top-bg{
+    width: 100%;
+    height: 373px;
+    background-color: lightslategray;
+}
+div.bottom-bg{
+    margin-top: 533px;
+    width: 100%;
+    height: 51px;
+    background-color: lightslategray;
+
+}
+div.wrapper{
+    width: 40%;
+    margin: 0 auto;
+    /* border: 1px solid yellow; */
+}
+
+div.header{
+    display: flex;
+    /* border: 1px solid black; */
+    width: 100%;
+    justify-content: space-between;
+    height: 100px;
+
+}
+div.box1{
+    align-self: center;
+}
+div.box2{
+    align-self: center;
+}
+div.box2 ul{
+    /* border: 1px solid black; */
+    width: 300px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+li {
+    list-style-type:none;
+}
+a{
+    text-decoration: none;
+}
+div.header2{
+    display: flex;
+    justify-content: space-between;
+    /* border: 1px solid black; */
+    width: 100%;
+    height: 250px;
+}
+div.box4{
+    /* border: 1px solid black; */
+    width: 70%;
+    background-color: lightsteelblue;
+}
+div.box3 p:first-child{
+    font-size: 20pt;
+    font-weight: bold;
+    margin: 10px;
+}
+div.box3 p:last-child{
+    font-size: 16pt;
+}
+div.box4 p{
+    margin:86px;
+    font-size: 16pt;
+}
+div.cir-btn{
+    width: 100px;
+    display: flex;
+    /* border: 1px solid blue; */
+    padding: 10px 0;
+    margin: 39px 400px 8px;
+    justify-content: space-between;
+}
+div.cir-btn .btn{
+    background-color: lightgrey;
+    width: 10px;
+    height: 10px;
+    /* border-radius: 20px; */
+}
+div.gal-sec1{
+    display: flex;
+    justify-content:space-between;
+    margin: 0 0 30px;
+    /* border: 1px solid red; */
+}
+div.gal-sec2{
+    display: flex;
+    justify-content:space-between;
+}
+div.gal-sec1 .box{
+    width: 209px;
+    height: 180px;
+    justify-content: center;
+    background-color: lightgrey;
+    /* border: 1px solid black; */
+}
+div.gal-sec2 .box{
+    width: 209px;
+    height: 180px;
+    background-color: lightgrey;
+    /* border: 1px solid black; */
+}
+div.feed{
+    width: 100%;
+    height: 50px;
+    background-color: lightgrey;
+    margin:20px 0;
+}
+div.footer{
+    display: flex;
+    height: 50px;
+    /* border: 1px solid blue; */
+}
+div.boxf{
+    align-self: center;
+}
+div.boxf2{
+    align-self: center;
+}
+div.boxf ul{
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: row;
+    width: 300px;
+    justify-content: space-between;
+}
+div.boxf2{
+    /* border: 1px solid red; */
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
