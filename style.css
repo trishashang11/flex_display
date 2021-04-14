@@ -57,6 +57,10 @@ section{
 }
 div.box4{
     /* border: 1px solid black; */
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding-left: 70px;
     width: 70%;
     background-color: lightsteelblue;
 }
@@ -69,7 +73,7 @@ div.box3 p:last-child{
     font-size: 16pt;
 }
 div.box4 p{
-    margin:86px;
+    /* margin:86px; */
     font-size: 16pt;
 }
 div.cir-btn{
@@ -92,31 +96,28 @@ div.gal-sec1{
     margin: 0 0 30px;
     /* border: 1px solid red; */
 }
-div.gal-sec1 .box{
-    justify-content: center;
-    align-items: center;
-    display: flex;
-}
-div.gal-sec2 .box{
-    justify-content: center;
-    align-items: center;
-    display: flex;
-}
+
 div.gal-sec2{
     display: flex;
     justify-content:space-between;
 }
 div.gal-sec1 .box{
-    width: 209px;
+    width: 240px;
     height: 180px;
     justify-content: center;
     background-color: lightgrey;
+    justify-content: center;
+    align-items: center;
+    display: flex;
     /* border: 1px solid black; */
 }
 div.gal-sec2 .box{
-    width: 209px;
+    width: 240px;
     height: 180px;
     background-color: lightgrey;
+    justify-content: center;
+    align-items: center;
+    display: flex;
     /* border: 1px solid black; */
 }
 article{
