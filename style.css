@@ -116,7 +116,7 @@ div.ad-banner_box2 .ad-banner_box2-p {
   font-size: 16pt;
 }
 
-div.cir-btn {
+div.slide {
   width: 100px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -129,7 +129,7 @@ div.cir-btn {
           justify-content: space-between;
 }
 
-div.cir-btn .btn {
+div.slide .slide-btn {
   background-color: lightgrey;
   width: 10px;
   height: 10px;
