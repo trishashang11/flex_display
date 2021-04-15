@@ -61,16 +61,19 @@ div.box4{
     align-items: center;
     justify-content: flex-start;
     padding-left: 70px;
-    width: 70%;
+    width: 60%;
     background-color:#9D9C9C;
 }
 div.box3 p:first-child{
     font-size: 20pt;
     font-weight: bold;
-    margin: 10px;
+    margin: 10px 10px 10px 0;
 }
 div.box3 p:last-child{
-    font-size: 16pt;
+    font-size: 13pt;
+}
+div.box3{
+    margin-right: 10px;
 }
 div.box4 p{
     /* margin:86px; */
@@ -81,7 +84,7 @@ div.cir-btn{
     display: flex;
     /* border: 1px solid blue; */
     padding: 10px 0;
-    margin: 39px 400px 8px;
+    margin: 9px 0 8px 460px;
     justify-content: space-between;
 }
 div.cir-btn .btn{
