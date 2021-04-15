@@ -1,0 +1,87 @@
+@media (max-width: 800px) {
+    .wrapper {
+        padding: 0 20px;
+    }
+    section {
+        display: block;
+        height: auto;
+    }
+    div.box3 {
+        width: 100%;
+        display: block;
+        text-align: center;
+    }
+    div.box3 p {
+        margin: 0;
+    }
+    div.box4 {
+        width: auto;
+        display: block;
+        text-align: center;
+        padding: 10px;
+        margin: 10px;
+    }
+} 
+
+@media (max-width: 500px) {
+    div.top-bg {
+        height: auto;
+        padding: 0 0 20px;
+    }
+    div.box1 h1 {
+        text-align: center;
+        margin: 15px 0;
+    }
+    div.box2 ul {
+        display: block;
+        text-align:center;
+        width: 100%;
+    }
+    div.box2 li {
+        border-bottom: 1px solid #ececec;
+        padding: 10px 0;
+    }
+    header {
+        display: block;
+        height: auto;
+    }
+    div.cir-btn {
+        margin: 10px auto;
+    }
+    div.gal-sec1{
+        display: block;
+    }
+    div.gal-sec1 .box{
+        width: 100%;
+        margin: 15px 0;
+    }
+    div.gal-sec2{
+        display: block;
+    }
+    div.gal-sec2 .box{
+        width: 100%;
+        margin: 15px 0;
+    }
+    div.boxf ul {
+        display: block;
+        text-align:center;
+        width: 100%;
+    }
+    div.boxf li {
+        border-bottom: 1px solid #ececec;
+        padding: 10px 0;
+    }
+    div.boxf2{
+        display: block;
+        text-align: center;
+        padding: 10px 0 0;
+    }
+    footer {
+        display: block;
+        height: auto;
+    }
+    div.bottom-bg {
+        height: auto;
+        padding: 0 0 10px;
+    }
+}
