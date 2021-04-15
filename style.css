@@ -7,6 +7,7 @@ div.top-bg{
     height: 373px;
     background-color: lightgrey;
     overflow: hidden;
+    /* border: 1px solid red; */
 }
 div.bottom-bg{
     width: 100%;
@@ -28,13 +29,13 @@ header{
     height: 100px;
 
 }
-div.box1{
+div.ad-header_box1{
     align-self: center;
 }
-div.box2{
+div.ad-header_box2{
     align-self: center;
 }
-div.box2 ul{
+ul{
     /* border: 1px solid black; */
     width: 300px;
     display: flex;
@@ -55,7 +56,18 @@ section{
     width: 100%;
     height: 250px;
 }
-div.box4{
+div.ad-banner_box1 .ad-banner_box1-p1{
+    font-size: 20pt;
+    font-weight: bold;
+    margin: 10px 10px 10px 0;
+}
+div.ad-banner_box1 .ad-banner_box1-p2{
+    font-size: 13pt;
+}
+div.ad-banner_box1{
+    margin-right: 10px;
+}
+div.ad-banner_box2{
     /* border: 1px solid black; */
     display: flex;
     align-items: center;
@@ -64,18 +76,7 @@ div.box4{
     width: 60%;
     background-color:#9D9C9C;
 }
-div.box3 p:first-child{
-    font-size: 20pt;
-    font-weight: bold;
-    margin: 10px 10px 10px 0;
-}
-div.box3 p:last-child{
-    font-size: 13pt;
-}
-div.box3{
-    margin-right: 10px;
-}
-div.box4 p{
+div.ad-banner_box2 .ad-banner_box2-p{
     /* margin:86px; */
     font-size: 16pt;
 }
@@ -99,22 +100,21 @@ div.gal-sec1{
     margin: 0 0 30px;
     /* border: 1px solid red; */
 }
-
+div.gal-sec1 .gal-sec1_box{
+    width: 240px;
+    height: 180px;
+    justify-content: center;
+    background-color: lightgrey;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    /* border: 1px solid black; */
+}
 div.gal-sec2{
     display: flex;
     justify-content:space-between;
 }
-div.gal-sec1 .box{
-    width: 240px;
-    height: 180px;
-    justify-content: center;
-    background-color: lightgrey;
-    justify-content: center;
-    align-items: center;
-    display: flex;
-    /* border: 1px solid black; */
-}
-div.gal-sec2 .box{
+div.gal-sec2 .gal-sec2_box{
     width: 240px;
     height: 180px;
     background-color: lightgrey;
@@ -123,31 +123,31 @@ div.gal-sec2 .box{
     display: flex;
     /* border: 1px solid black; */
 }
-article{
+.ad-article{
     width: auto;
     padding: 16px;
     background-color: lightgrey;
     margin:20px 0;
 }
-footer{
+.ad-footer{
     display: flex;
     height: 50px;
     /* border: 1px solid blue; */
 }
-div.boxf{
+div.ad-footer_box1{
     align-self: center;
 }
-div.boxf2{
+div.ad-footer_box2{
     align-self: center;
 }
-div.boxf ul{
+div.ad-footer_box1 .ad-footer_box1-ul{
     /* border: 1px solid black; */
     display: flex;
     flex-direction: row;
     width: 300px;
     justify-content: space-between;
 }
-div.boxf2{
+div.ad-footer_box2{
     /* border: 1px solid red; */
     width: 100%;
     display: flex;
